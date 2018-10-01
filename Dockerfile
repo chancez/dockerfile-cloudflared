@@ -1,6 +1,6 @@
-ARG ARCH
 FROM golang:alpine as gobuild
 
+ARG ARCH
 ARG GOARCH
 ARG GOARM
 
